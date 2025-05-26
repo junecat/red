@@ -25,7 +25,7 @@ int main(){
     size_t ports_poz = lines[0].find("PORTS");
     size_t names_poz = lines[0].find("NAMES");
 
-    cout << container_poz << ", "  << id_poz << ", " << image_poz << ", " << command_poz << ", " created_poz << ", " status_poz << ", " << ports_poz << ", " names_poz << endl;
+    cout << container_poz << ", "  << id_poz << ", " << image_poz << ", " << command_poz << ", " << created_poz << ", " << status_poz << ", " << ports_poz << ", " << names_poz << endl;
     
 
 
